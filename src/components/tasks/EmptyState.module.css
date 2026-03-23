@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 60px 20px;
+}
+
+.illustration {
+  flex-shrink: 0;
+}
+
+.svg {
+  width: 320px;
+  height: 352px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.line1,
+.line2 {
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #333333;
+  line-height: 1.5;
+}
+
+[data-theme='dark'] .line1,
+[data-theme='dark'] .line2 {
+  color: #ffffff;
+}

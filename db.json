@@ -1,0 +1,11 @@
+{
+  "todos": [
+    { "id": 1, "title": "Сходить в магазин", "completed": false },
+    { "id": 2, "title": "Помыть посуду", "completed": false },
+    { "id": 3, "title": "Вынести мусор", "completed": true },
+    { "id": 4, "title": "Позвонить маме", "completed": false },
+    { "id": 5, "title": "Сделать зарядку 10 минут", "completed": false },
+    { "id": 6, "title": "Разобрать почту", "completed": false }
+  ]
+}
+
